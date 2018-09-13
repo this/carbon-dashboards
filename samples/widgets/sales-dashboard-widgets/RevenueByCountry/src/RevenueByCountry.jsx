@@ -21,6 +21,8 @@ import React, {Component} from 'react';
 import VizG from 'react-vizgrammar';
 import Widget from '@wso2-dashboards/widget';
 
+import './style.css';
+
 class RevenueByCountry extends Widget {
     constructor(props) {
         super(props);
